@@ -1,7 +1,14 @@
 import React from "react";
 
 const IndividualProject = ({ featuredPersonalProject, inverse }) => {
-  const { name, link, img, description, stack = [] } = featuredPersonalProject;
+  const {
+    name,
+    link,
+    github,
+    img,
+    description,
+    stack = [],
+  } = featuredPersonalProject;
 
   const stackList = stack.map((item, index) => (
     <li key={index} className="stack-list-item">
@@ -29,7 +36,7 @@ const IndividualProject = ({ featuredPersonalProject, inverse }) => {
             <a href={link} rel="noopener noreferrer" target="_blank">
               <h2>View Live</h2>
             </a>
-            <a href="/">
+            <a href={github}>
               <h2>Github</h2>
             </a>
           </div>
