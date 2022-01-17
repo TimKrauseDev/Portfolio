@@ -11,7 +11,7 @@ const TsParticles = () => {
             value: "#1D1E20",
           },
         },
-        fpsLimit: 60,
+        fpsLimit: 30,
         interactivity: {
           detectsOn: "canvas",
           events: {
@@ -20,34 +20,34 @@ const TsParticles = () => {
               mode: "push",
             },
             onHover: {
-              enable: false,
-              mode: "repulse",
+              enable: true,
+              mode: "bubble",
             },
             resize: true,
           },
           modes: {
             bubble: {
-              distance: 400,
-              duration: 2,
-              opacity: 0.6,
+              distance: 100,
+              duration: 3,
+              opacity: 1,
               size: 10,
             },
             push: {
-              quantity: 4,
+              quantity: 2,
             },
             repulse: {
-              distance: 200,
-              duration: 0.4,
+              distance: 1,
+              duration: 2,
             },
           },
         },
         particles: {
           color: {
-            value: "#fff",
+            value: "#B5B6B6",
           },
           links: {
             color: "#7ACBAE",
-            distance: 150,
+            distance: 200,
             enable: true,
             opacity: 0.5,
             width: 1,
@@ -60,7 +60,7 @@ const TsParticles = () => {
             enable: true,
             outMode: "bounce",
             random: true,
-            speed: 2,
+            speed: 0.7,
             straight: false,
           },
           number: {
@@ -68,10 +68,10 @@ const TsParticles = () => {
               enable: true,
               value_area: 500,
             },
-            value: 60,
+            value: 40,
           },
           opacity: {
-            value: 0.5,
+            value: 0.7,
           },
           shape: {
             type: "circle",
