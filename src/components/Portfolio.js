@@ -10,8 +10,8 @@ const Portfolio = () => {
   const featuredPersonalProjects = [
     {
       name: "Meteor Landing Page",
-      link: "https://meteor-dup.herokuapp.com/",
-      github: "https://github.com/",
+      link: "https://meteor-duplication-4a081.web.app/",
+      github: "https://github.com/TimKrauseUS/Meteor-Duplication",
       img: imgMeteorDup,
       description:
         "In this front-end project, Meteor's landing page was fully duplicated with using React and SCSS. A few styling and typo bugs were also found during this project, which were then reported to Meteor.",
@@ -19,8 +19,8 @@ const Portfolio = () => {
     },
     {
       name: "Sorting Visualizer",
-      link: "https://sorting-visualize.herokuapp.com/",
-      github: "https://github.com/",
+      link: "https://krause-sorting-visualizer.web.app/",
+      github: "https://github.com/TimKrauseUS/Sorting-Visualizer",
       img: imgSortingAlgo,
       description:
         "This sorting visualizer is a front-end application that allows users to visualize the following sorting algorithms: Bubble, Insertion, Merge, Quick and Selection. You have the ability to sort the array of bars automatically or step-by-step.",
@@ -28,12 +28,12 @@ const Portfolio = () => {
     },
     {
       name: "COVID-19 Tracker",
-      link: "https://krause-covid-tracker.herokuapp.com/",
-      github: "https://github.com/",
+      link: "https://krause-covid-19-tracker.web.app/",
+      github: "https://github.com/TimKrauseUS/covid-app",
       img: imgCovidApp,
       description:
         "This application allows users to track COVID-19 cases at both a global and country level. You can see which countries are doing things right and which are struggling through the pandemic as you monitor the amount of active, recovered and death cases along with the percentage of population who have vaccinated.",
-      stack: ["React", "Material UI", "SCSS"],
+      stack: ["React", "Axios", "Material UI", "CSS"],
     },
   ];
 
@@ -44,14 +44,6 @@ const Portfolio = () => {
         <div className="section-title">
           <h2>Featured</h2>
           <h1>Personal Work</h1>
-          <p>
-            <em>
-              All projects use Heroku.
-              <br />
-              Please open all projects at once so their dynos can wake up and
-              you only have to wait once!
-            </em>
-          </p>
         </div>
 
         <IndividualProject

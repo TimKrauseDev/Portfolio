@@ -36,7 +36,7 @@ const IndividualProject = ({ featuredPersonalProject, inverse }) => {
             <a href={link} rel="noopener noreferrer" target="_blank">
               <h2>View Live</h2>
             </a>
-            <a href={github}>
+            <a href={github} rel="noopener noreferrer" target="_blank">
               <h2>Github</h2>
             </a>
           </div>

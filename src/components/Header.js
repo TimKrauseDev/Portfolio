@@ -32,14 +32,14 @@ const Header = () => {
             onClick={() => setNameActive(!navActive)}
             className={`${navActive ? "is-active" : ""}`}
           >
-            Personal <br /> Work
+            Personal Work
           </a>
           <a
             href="#portfolio-professional"
             onClick={() => setNameActive(!navActive)}
             className={`${navActive ? "is-active" : ""}`}
           >
-            Professional <br /> Work
+            Professional Work
           </a>
           <a
             href="#about-title"
