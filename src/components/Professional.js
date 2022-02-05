@@ -1,8 +1,8 @@
 import React from "react";
 
 import imgHollyKane from "../images/professional_projects/hollykane.JPG";
-import imgChapmanDesign from "../images/professional_projects/chapmandesign.JPG";
-import imgKatherineJosephine from "../images/professional_projects/katherinejosephine.JPG";
+import imgland_home from "../images/professional_projects/land_home.PNG";
+import imgVeeker from "../images/professional_projects/veeker_home.PNG";
 import imgFCStudio from "../images/professional_projects/fcstudio_home.PNG";
 import imgDLDesign from "../images/professional_projects/dldesign_home.PNG";
 import imgZirbel from "../images/professional_projects/zirbel_home.PNG";
@@ -10,9 +10,19 @@ import imgZirbel from "../images/professional_projects/zirbel_home.PNG";
 const Portfolio = () => {
   const featuredProfessionals = [
     {
+      name: "The Veeker Collective",
+      link: "https://www.theveekarcollective.com/",
+      img: imgVeeker,
+    },
+    {
       name: "DL Design Studio",
       link: "https://www.dldesignstudioltd.com/",
       img: imgDLDesign,
+    },
+    {
+      name: "LANDology",
+      link: "http://www.landology.net/",
+      img: imgland_home,
     },
     {
       name: "Zirbel Architects",
@@ -21,20 +31,11 @@ const Portfolio = () => {
     },
 
     {
-      name: "Chapman Design",
-      link: "https://www.chapmandesign.com/",
-      img: imgChapmanDesign,
-    },
-    {
       name: "Holly Kane",
       link: "https://www.hollykane.com/",
       img: imgHollyKane,
     },
-    {
-      name: "Katherine Josephine",
-      link: "https://www.katherinejosephine.com/",
-      img: imgKatherineJosephine,
-    },
+
     {
       name: "FC Studio",
       link: "https://www.fcstudioinc.com/",
