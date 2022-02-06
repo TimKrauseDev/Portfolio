@@ -15,7 +15,7 @@ const Portfolio = () => {
       img: imgMeteorDup,
       description:
         "In this front-end project, Meteor's landing page was fully duplicated with using React and SCSS. A few styling and typo bugs were also found during this project, which were then reported to Meteor.",
-      stack: ["React", "SCSS"],
+      stack: ["React", "SASS"],
     },
     {
       name: "Sorting Visualizer",
@@ -24,7 +24,7 @@ const Portfolio = () => {
       img: imgSortingAlgo,
       description:
         "This sorting visualizer is a front-end application that allows users to visualize the following sorting algorithms: Bubble, Insertion, Merge, Quick and Selection. You have the ability to sort the array of bars automatically or step-by-step.",
-      stack: ["React", "React Router", "Bootstrap", "SCSS"],
+      stack: ["React", "React Router", "Bootstrap", "SASS"],
     },
     {
       name: "COVID-19 Tracker",
