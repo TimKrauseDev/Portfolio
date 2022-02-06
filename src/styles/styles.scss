@@ -46,6 +46,13 @@ h2 {
   text-transform: uppercase;
 }
 
+h3 {
+  font-family: $futura_heavy;
+  font-size: 15px;
+  color: $green;
+  letter-spacing: 0.17em;
+}
+
 p,
 li {
   font-family: $futura_light;
@@ -377,7 +384,7 @@ $white: #fff;
     width: 100%;
     aspect-ratio: 16 / 9;
     border: 1px solid $white_off;
-    box-shadow: -15px 15px $green;
+    //box-shadow: -15px 15px $green;
   }
   .img-wrapper {
     padding: 17px;
@@ -429,43 +436,29 @@ $white: #fff;
       }
     }
 
-    a::before {
-      transition: all ease-in-out 0.3s;
-      opacity: 0;
-      content: "";
-      position: absolute;
-      bottom: 0px;
-      left: 0px;
-      width: 50px;
-      height: 50px;
-      display: block;
-      background: linear-gradient(
-        45deg,
-        rgba(122, 203, 174, 0.8) 0%,
-        transparent 40%
-      );
+    a:hover {
+      background-color: $white_off;
+      h2 {
+        color: $grey_light;
+      }
     }
+  }
+}
 
-    a::after {
-      transition: all ease-in-out 0.3s;
-      opacity: 0;
-      content: "";
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      width: 50px;
-      height: 50px;
-      display: block;
-      background: linear-gradient(
-        225deg,
-        rgba(122, 203, 174, 0.8) 0%,
-        transparent 40%
-      );
-    }
-    a:hover::before,
-    a:hover::after {
-      opacity: 1;
-    }
+#professional {
+  h2 {
+    line-height: 3em;
+  }
+
+  ul {
+    margin-top: 15px;
+  }
+  li {
+    list-style: inside;
+    padding-right: 20px;
+  }
+  li::marker {
+    content: "⊳ ";
   }
 }
 
@@ -670,6 +663,19 @@ textarea {
     }
   }
 } //end 1100
+
+@media only screen and (max-width: 850px),
+  only screen and (max-device-width: 850px) {
+  #professional .portfolio-gallery {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    gap: 0;
+  }
+
+  #professional .gallery-item:nth-child(n + 2) {
+    margin-top: 50px;
+  }
+} //770
 
 @media only screen and (max-width: 640px),
   only screen and (max-device-width: 640px) {
