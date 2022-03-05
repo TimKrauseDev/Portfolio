@@ -17,7 +17,7 @@ const Portfolio = () => {
       description:
         "This e-commerce website was built on the MERN stack. Website features include: authentication; database storage using RESTful API and MongoDB for products, user's shopping sessions and order history; and a checkout flow throgh Stripe's API.",
       stack: [
-        "Node",
+        "NodeJS",
         "MongoDB",
         "Express",
         "React",
