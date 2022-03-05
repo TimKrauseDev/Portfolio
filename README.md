@@ -2,7 +2,7 @@
 
 Source code for my [Personal Website](https://timkrause.dev/), built with [React](https://reactjs.org/).
 
-<img width="600" alt="Screen Shot 2022-02-01 at 11 41 48 AM" src="./src/images/portfolio_home.PNG">
+<img width="600" alt="portfolio home" src="./src/images/portfolio_home.PNG">
 
 ## Overview
 
