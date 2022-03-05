@@ -15,4 +15,4 @@ The technology used to create this portfolio include:
 - SASS
 
 ## Contact
-If you have any questions about the portfolio, my work or if you have any opportunities you would I would be a good fit for. Please contact me through the form at the end of the portfolio.
+If you have any questions about the front-end project, my work or if you have any opportunities you would I would be a good fit for, please [contact me](https://timkrause.dev/#contact).
