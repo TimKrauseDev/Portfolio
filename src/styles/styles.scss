@@ -238,7 +238,8 @@ a {
 
 .landing {
   h1 {
-    font-size: 34px;
+    font-size: 40px;
+    padding: 25px;
   }
   h2 {
     font-size: 24px;
@@ -280,7 +281,7 @@ $white: #fff;
   border: 2px solid #fff;
   line-height: 1;
   margin: 0.5em;
-  padding: 1em 2em;
+  padding: 10px 20px;
   transition: all ease-in-out 0.3s;
   pointer-events: auto;
 
@@ -384,7 +385,6 @@ $white: #fff;
   .portfolio-image {
     width: 100%;
     aspect-ratio: 16 / 9;
-    border: 1px solid $white_off;
   }
   .img-wrapper {
     padding: 17px;

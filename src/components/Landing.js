@@ -14,10 +14,10 @@ const Landing = () => {
         <h1>Full Stack Developer</h1>
         <div className="wrapper">
           <a href="#portfolio">
-            <h2>View Portfolio</h2>
+            <h2>Portfolio</h2>
           </a>
           <a href={Pdf} target="_blank" rel="noopener noreferrer">
-            <h2>View Resume</h2>
+            <h2>Resume</h2>
           </a>
         </div>
       </div>
