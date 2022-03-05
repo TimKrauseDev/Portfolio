@@ -489,8 +489,8 @@ $white: #fff;
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 2%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
   justify-content: center;
   align-items: center;
 }
@@ -499,6 +499,10 @@ $white: #fff;
   width: 80%;
   height: auto;
   margin: auto;
+}
+
+.mongo {
+  width: 40%;
 }
 
 img[alt="imgSquarespace"] {
@@ -650,17 +654,6 @@ textarea {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  #about {
-    .about-gallery {
-      grid-template-columns: 1fr 1fr 1fr;
-      row-gap: 34px;
-      img:nth-child(10) {
-        border: 1px solid red;
-        display: none;
-      }
-    }
   }
 } //end 1100
 

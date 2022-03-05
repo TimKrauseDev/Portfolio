@@ -10,6 +10,8 @@ import imgSass from "../images/technologies/sass.png";
 import imgReact from "../images/technologies/react.png";
 import imgRedux from "../images/technologies/redux.png";
 import imgSquarespace from "../images/technologies/squarespace.png";
+import mongoDB from "../images/technologies/mongoDB.png";
+import node from "../images/technologies/node.png";
 
 const About = () => {
   return (
@@ -55,6 +57,8 @@ const About = () => {
           alt="imgSquarespace"
           src={imgSquarespace}
         />
+        <img className="about-image node" alt="node" src={node} />
+        <img className="about-image mongo" alt="mongodb" src={mongoDB} />
         <img className="about-image" alt="imgPostman" src={imgPostman} />
       </div>
     </div>
