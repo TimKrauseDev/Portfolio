@@ -275,6 +275,7 @@ $red: #e1332d;
 $white: #fff;
 
 .landing .content a {
+  display: inline-block;
   background: none;
   border: 2px solid #fff;
   line-height: 1;
@@ -384,7 +385,6 @@ $white: #fff;
     width: 100%;
     aspect-ratio: 16 / 9;
     border: 1px solid $white_off;
-    //box-shadow: -15px 15px $green;
   }
   .img-wrapper {
     padding: 17px;

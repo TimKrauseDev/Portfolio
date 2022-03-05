@@ -1,6 +1,8 @@
 import React from "react";
 import TsParticles from "./TsParticles";
 
+import Pdf from "../images/TimKrauseResume.pdf";
+
 const Landing = () => {
   return (
     <div id="landing" className="landing">
@@ -9,10 +11,15 @@ const Landing = () => {
         <h2>
           Hi, I'm Tim. <br /> Nice to meet you!
         </h2>
-        <h1>Front-end Developer</h1>
-        <a href="#portfolio">
-          <h2>View Portfolio</h2>
-        </a>
+        <h1>Full Stack Developer</h1>
+        <div className="wrapper">
+          <a href="#portfolio">
+            <h2>View Portfolio</h2>
+          </a>
+          <a href={Pdf} target="_blank" rel="noopener noreferrer">
+            <h2>View Resume</h2>
+          </a>
+        </div>
       </div>
     </div>
   );
