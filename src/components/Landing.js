@@ -11,7 +11,7 @@ const Landing = () => {
         <h2>
           Hi, I'm Tim. <br /> Nice to meet you!
         </h2>
-        <h1>Full Stack Developer</h1>
+        <h1>Front End Developer</h1>
         <div className="wrapper">
           <a href="#portfolio">
             <h2>Portfolio</h2>
